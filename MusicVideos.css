@@ -70,6 +70,10 @@ video {
 		border: .3em solid 	#228B22;
 	}
 	
+iframe {
+	padding-left: 36%;
+}
+
 footer{
 	color: white;
 	font-style: italic;
