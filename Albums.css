@@ -1,0 +1,277 @@
+body{
+	background-color: #000000;
+	}
+	
+header img {
+	width: 100%;
+}
+	
+#Nav {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	text-align: center;
+	position: absolute;
+    left: 50%;
+	transform: translatex(-50%);
+	bottom: 25%;
+  }
+  
+  #NavList {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	
+  }
+
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: #111;
+  }
+
+
+h2 {
+	color: white;
+	font-style: italic;
+	text-align: center;
+	margin-top: 2em;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	}
+
+p {
+	text-align: center;
+	color: whitesmoke;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    text-align: center;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 1.3em;
+	padding-right: 1em;
+}
+
+#selftitled {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+
+}
+	
+
+
+#DemonDays {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+}
+
+#PlasticBeach {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+}
+
+#TheFall {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+}
+
+ #Humanz {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+	
+}
+
+#TheNowNow {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+}
+
+#SongMachine1 {
+	width: 100%;
+	float: left;
+	padding-left: 37%;
+}
+	
+footer{
+	color: white;
+	font-style: italic;
+	font-size: .8em;
+	text-align: center; 
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+/*
+<h2> Gorillaz (Self-Titled Album) </h2>
+	<p> Gorillaz is the debut studio album by the British virtual band Gorillaz, released on 26 March 2001 by Parlophone Records internationally and by Virgin Records in the United States. <br>
+	It includes the singles "Clint Eastwood", "19-2000", "Rock the House" and "Tomorrow Comes Today". <br> The album reached number three in the UK, and was an unexpected hit in the US, hitting number 14 and selling over seven million copies worldwide by 2007. <br>
+	It earned the group an entry in the Guinness Book of World Records as the Most Successful Virtual Band </p>
+	
+	<div id="selftitled">
+	<img src="Gimages/GorillazSelf.jpg" alt="Gorillaz" style="width:31em;height:31em;">
+	</div>
+	
+	<ol style="list-style-type:none">
+	<li> Re Hash</li>
+	<li> 5/4</li>
+	<li> Tomorrow Comes Today</li>
+	<li> New Genius (Brother)</li>
+	<li> Clint Eastwood ft. Del The Funky Homosapian</li>
+	<li> Man Research (Clapper)</li>
+	<li> Punk</li>
+	<li> Sound Check (Gravity)</li>
+	<li> Double Base</li>
+   <li> Rock The House ft. Del The Funky Homosapian </li>
+   <li> 19-200</li>          
+   <li> Latine Simone (Que Pasa Contingo?)</li>
+   <li> Starshine</li>
+   <li> Slow Country</li>
+   <li> M1 A1</li> <br>
+   </ol>
+
+   <h2>Demon Days</h2>
+   <p>Demon Days is the second studio album by British virtual band Gorillaz, <br> released on 11 May 2005 in Japan and on 23 May internationally by Parlophone Records <br> and in the United States by Virgin Records.</p>
+   
+   <div id="DemonDays">
+   <img src="Gimages/DemonDays.jpg" alt="Gorillz" style="width:31em;height:31em;">
+   </div>
+		
+	<ol style="list-style-type:none">
+	<li> Intro</li>
+	<li> Last Living Souls</li>
+	<li> Kids With Guns</li>
+	<li> O Green World</li>
+	<li> Dirty Harry ft. Booty Brown</li>
+	<li> Feel Good Inc. ft. Del La Sol</li>
+	<li> El Manana</li>
+	<li> Every Planet We Reach Is Dead</li>
+	<li> November Has Come ft. MF Doom</li>
+   <li> All Alone</li>
+   <li> White Light</li>          
+   <li> Dare ft.Sean Ryder</li>
+   <li> Fire Coming Out Of the Monkeys Head</li>
+   <li> Dont get lost in heaven</li>
+   <li> Demon Days</li>
+   </ol>
+   
+   <h2> Plastic Beach </h2>
+   <p>Plastic Beach is the third studio album by British virtual band Gorillaz. <br> It was released on 3 March 2010 by Parlophone <br> internationally and by Virgin Records in the United States.</p>
+   
+   <div id="PlasticBeach">
+   <img src="Gimages/PlasticBeach.jpg" alt="Gorillz" style="width:31em;height:31em;">
+   </div>
+		
+	<ol style="list-style-type:none">
+	<li> Orchestral Intro</li>
+	<li> Welcome To the World of The Plastic Beach ft.Snoop Dog</li>
+	<li> White Flag ft. Kano & Bashy</li>
+	<li> Rhinestone Eyes</li>
+	<li> Stylo ft.Bobby Womack & Mos Def</li>
+	<li> Superfast jellyfish ft. Del La Sol</li>
+	<li> Empire Ants ft. Little Dragon</li>
+	<li> Glitter Freeze ft. Mark E. Smith</li>
+	<li> Some Kind of Nature ft. Lou Reed</li>
+   <li> On Melancholy Hill</li>
+   <li> Broken</li>          
+   <li> Sweepstakes ft. Mos Def & Hypnotic Brass Ensemble</li>
+   <li> Plastic Beach ft. Paul Simonon & Mick Jones</li>
+   <li> To Binge ft. Little Dragon</li>
+   <li> Cloud of The Unknowing ft. Bobby Womack</li>
+   <li> Pirate Jet</li>
+   <li> Pirate's Progress</li>
+   </ol>
+   
+   <h2> The Fall </h2>
+   <p>The Fall is the fourth studio album from British virtual band Gorillaz. <br> The album was officially announced on 20 December 2010 </p>
+   
+   <div id="TheFall">
+   <img src="Gimages/TheFall.jpg" alt="Gorillz" style="width:31em;height:31em;">
+   </div>
+   
+   <ol style="list-style-type:none">
+   <li> Phoner to Arizona</li>
+   <li> Revolving Doors </li>
+   <li> Hilbilly Man </li>
+   <li> Detroit </li>
+   <li> Shy-town </li>
+   <li> Little Pink Plastic Bags </li>
+   <li> The Joplin Spider </li>
+   <li> The Parish of Space Dust </li>
+   <li> The Snake in Dallas </li>
+   <li> Amarillo </li>
+   <li> The Speak it Mountains </li>
+   <li> Aspen Forest </li>
+   <li> Bobby in Phoenix ft. Bobby Womack</li>   
+   <li> California & The Slipping of the Sun</li>
+   <li> Seattle Yodel </li>
+   
+   </ol>
+   
+   <h2> Humanz </h2>
+   <p>Humanz is the fifth studio album by British virtual band Gorillaz. <br> The album was released on 28 April 2017 via Parlophone and Warner Bros. <br> Records. The album was announced on the band's official Instagram page on 23 March 2017.</p>
+   
+   <div id="Humanz">
+   <img src="Gimages/HumanzAlbum.jpg" alt="Gorillaz" style="width:31em;height:31em;">
+   </div>
+   
+   <ol style="list-style-type:none">
+	<li> Interlude: I switched my robot off</li>
+	<li> Ascention ft.Vince Staples</li>
+	<li> Stroblelight ft.Peven Everet</li>
+	<li> Saturnz Barz ft.Popcaan</li>
+	<li> Momentz ft.De La Sol</li>
+	<li> Interlude: The Non Conformist Oath</li>
+	<li> Submission ft. Kalela & Danny Brown</li>
+	<li> Charger ft. Grace Jones</li>
+	<li> Inteude: Elevator going up</li>
+   <li> Andromida ft. D.R.A.M</li>
+   <li> Busted & Blue</li>          
+   <li> Interlude: Talk Radio</li>
+   <li> Carnival ft. Anthony Hamilton</li>
+   <li> Let Me Out ft. Mavis Staples & Pusha T</li>
+   <li> Interlude: Penthouse</li>
+   <li> Sex Murder Party ft. Jamie Princable & Zebra Katts</li>
+   <li> Shes My Coller ft. Kali Uches</li>
+   <li> Interlude: The Elephant</li>
+   <li> Halleljuah Money ft. Benjimen Clemintine</li>
+   <li> We Got The Power ft. Jenny Beth & Noel Galleger</li> <br>
+   </ol>
+   
+   <h2> The Now Now </h2>
+   <p>The Now Now is the sixth studio album by British virtual band Gorillaz. <br> The album will be released on 29 June 2018 <br> via Parlophone and Warner Bros. Records.</p>
+	
+	<div id="TheNowNow">
+	<img src="Gimages/TheNowNow.jpg" alt="Gorillaz" style="width:31em;height:31em;">
+	</div>
+	
+	 <ol style="list-style-type:none">
+	 <li> Humility ft. George Benson</li>
+	 <li> Tranz </li>
+	 <li> Hollywood ft. Snoop Dog & Jamie Princable</li>
+	 <li> Kansas</li>
+	 <li> Sorcererz</li>
+	 <li> Idaho</li>
+	 <li> Lake Zurich</li>
+	 <li> Magic City</li>
+	 <li> Fire Flies</li>
+	 <li> One Percent</li>
+	 <li> Souk Eye</li>
+	 </ol>
+*/
