@@ -58,7 +58,7 @@ header img {
   }
 
   h2 {
-	color: #228B22;
+	color: #04cdd4;
 	font-style: italic;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -66,8 +66,30 @@ header img {
 	padding-top: 130px;
 	}
 
+#EpidsodeFour {
+	float: left;
+	margin-left: 10em;
+}
+
+#EpisodeThree {
+	float: left;
+	margin-left: 17em;
+}
+
+#EpisodeTwo {
+	float: left;
+	margin-left: 10em;
+	margin-bottom: 5em;
+}
+
+#EpisodeOne {
+	float: left;
+	margin-left: 17em;
+	margin-bottom: 5em;
+}
+
 video {
-		border: .3em solid 	#228B22;
+		border: .3em solid 	#04cdd4;
 	}
 	
 footer{
@@ -77,9 +99,11 @@ footer{
 	text-align: center; 
 	margin-top: 2%;
 	margin-bottom: 2%;
+	float: bottom;
 }
 
 #footBord {
 	padding-top: 50px;
+	float: inline-end;
 	
 }
